@@ -1,0 +1,412 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 108,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/andrewc/Projects/PiratesBattleVR/.git/COMMIT_EDITMSG",
+			"settings":
+			{
+				"buffer_size": 3750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 1528,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "SublimeAVR",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"SublimeAVR",
+					""
+				],
+				[
+					"SublimeAVR",
+					"Rebuild"
+				],
+				[
+					"SublimeAVR",
+					"Clean"
+				],
+				[
+					"SublimeAVR",
+					"Debug"
+				],
+				[
+					"SublimeAVR",
+					"Run"
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"SublimeAVR",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "Run",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "avr",
+		"selected_items":
+		[
+			[
+				"avr",
+				"AVR: Create/Update Project"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"line",
+				"Line Endings Unify"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/andrewc/Projects/BallDog"
+	],
+	"file_history":
+	[
+		"/C/Program Files/Sublime Text/Data/Packages/AVR/SublimeAVR.sublime-settings",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/DefaultResourcesExtra/Standard.shader",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/Editor/StandardShaderGUI.cs",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Shaders/CustomLighting.cginc",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityGBuffer.cginc",
+		"/C/Users/andrewc/Projects/WGamesUnityExam/.git/COMMIT_EDITMSG",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/.git/COMMIT_EDITMSG",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityGlobalIllumination.cginc",
+		"/C/Users/andrewc/Projects/BTDD/Assets/Shaders/TexgenSphereMap.shader",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityLightingCommon.cginc",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityStandardInput.cginc",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityStandardCoreForward.cginc",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityStandardCoreForwardSimple.cginc",
+		"/C/Users/andrewc/.gitconfig",
+		"/C/Users/andrewc/Projects/BTDD/.git/COMMIT_EDITMSG",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Art/Environment/Water Sea/Shaders/Mobile_Water_Color.shader",
+		"/C/Users/andrewc/Projects/BTDD/Assets/Shaders/HalfDiffuseShader.shader",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/Lighting.cginc",
+		"/C/Users/andrewc/Projects/BTDD/Assets/Shaders/CustomLighting.cginc",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityShaderUtilities.cginc",
+		"/C/Users/andrewc/Downloads/builtin_shaders-2017.2.0f3/CGIncludes/UnityCG.cginc",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Shaders/HalfDiffuseShader.shader",
+		"/C/Users/andrewc/AppData/Local/Temp/Temp1_builtin_shaders-2017.2.0f3.zip/DefaultResourcesExtra/UI/UI-Default.shader",
+		"/C/Users/andrewc/Projects/Slotomania/Bin/Win/Logs/Log_2017-11-04T11_17_06.log",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Shaders/HalfDiffuseShaderTransparent.shader",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Shaders/Lighting.cginc",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/mcs.rsp",
+		"/C/Users/andrewc/Projects/XLog/Src/XLog/Logger.cs",
+		"/C/Users/andrewc/Projects/XLog/Src/XLog/Categories/ICategoryFormatter.cs",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/csc.rsp",
+		"/C/Users/andrewc/Google Drive/Work/DevGamm2017/FakeWater.shader",
+		"/C/Users/andrewc/Desktop/Win/Logs/Log_2017-11-10T17_15_42.log",
+		"/C/Users/andrewc/Downloads/Pirate_Battle_Android_0.1.0.1.log",
+		"/C/Users/andrewc/AppData/Local/Temp/Temp1_Android.zip/build.log",
+		"/C/Users/andrewc/build.log",
+		"/C/Users/andrewc/.build.log",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Art/Water Sea/Shaders/Mobile_Water_Color.shader",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Art/Water Sea/Shaders/FakeWater.shader",
+		"/C/Users/andrewc/test.log",
+		"/C/Users/andrewc/AppData/Local/Unity/Editor/Editor.log",
+		"/C/Users/andrewc/Downloads/Pirate_Battle_StandaloneWindows_0.1.0.14.log",
+		"/C/Users/andrewc/AppData/Local/Unity/Editor/Editor-prev.log",
+		"/C/Users/andrewc/Downloads/Pirate_Battle_Windows_0.1.0.9.log",
+		"/C/Program Files/Unity 2017.3.0b/Editor/Data/Resources/Upm/node_modules/superagent/yarn-error.log",
+		"/C/Users/andrewc/Google Drive/Work/Shaders/MovingStars.shader",
+		"/C/Users/andrewc/Google Drive/Work/Shaders/GradientalFade-Colored.shader",
+		"/C/Users/andrewc/Google Drive/Work/Shaders/GradientalFade-Monochrome.shader",
+		"/C/Users/andrewc/Google Drive/Work/DevGamm2017/GradientMapShader.shader",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/Assets/ZTest/Test.asmdef",
+		"/C/Users/andrewc/Projects/BingoBlitz/.git/config",
+		"/C/Users/andrewc/Projects/BingoBlitz/pack.py",
+		"/C/Users/andrewc/Projects/Clean/Temp/StagingArea/assets/bin/Data/Managed/SweepReport.log",
+		"/C/Users/andrewc/Projects/Clean/Assets/Shaders/TestShader.shader"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/andrewc/Projects/PiratesBattleVR/.git/COMMIT_EDITMSG",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1425,
+								1425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 114.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 222.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SublimeAVR.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
