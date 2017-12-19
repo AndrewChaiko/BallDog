@@ -13,7 +13,7 @@ DEVICE=avrispmkII
 PORT=COM3
 BAUD=115200
 
-SOURCES=$(wildcard *.cpp) $(wildcard *.c)
+SOURCES=$(wildcard *.cpp) $(wildcard *.c) $(wildcard */*.c) $(wildcard */*.cpp)
 INCLUDES=
 
 SETTINGS=settings.h
