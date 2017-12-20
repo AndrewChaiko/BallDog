@@ -1,11 +1,10 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include "utils.h"
-#include "mpu6050/mpu6050.h"
+#include "i2cdevlib/Arduino/MPU6050/MPU6050.h"
 
 int main(void)
 {
-	mpu6050_init();
 
 	while(1)
 	{
