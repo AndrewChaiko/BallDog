@@ -1,6 +1,6 @@
-[submodule "MPU6050"]
-	path = MPU6050
-	url = https://github.com/daPhoosa/MPU6050
 [submodule "i2cdevlib"]
 	path = i2cdevlib
 	url = http://github.com/jrowberg/i2cdevlib
+[submodule "EyeToSee"]
+	path = EyeToSee
+	url = https://github.com/mcous/EyeToSee

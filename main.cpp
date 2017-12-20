@@ -1,12 +1,14 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include "utils.h"
-#include "i2cdevlib/Arduino/MPU6050/MPU6050.h"
+#include "EyeToSee/EyeToSee.h"
 
 int main(void)
 {
-
-	while(1)
+	EyeToSee bus;
+	unsigned char c;
+	bool success = bus.read(0x68, 0x02, &c);
+	while(success)
 	{
 		_delay_ms(500);
 	}
