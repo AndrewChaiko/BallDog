@@ -1,8 +1,8 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "utils.h"
 #include "EyeToSee/EyeToSee.h"
 #include "MPU6050/MPU6050.h"
+
 int main(void)
 {
 	EyeToSee bus;
