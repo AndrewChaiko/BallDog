@@ -7,11 +7,11 @@ OBJCOPY :=$(CROSS)objcopy
 OBJDUMP :=$(CROSS)objdump
 
 TARGET=ball_dog
+DEVICE=avrisp
+BAUD=57600
+PORT=COM6
 MMCU?=atmega328p
 AVRDUDE_FLAGS?=
-DEVICE=avrispmkII
-PORT=COM3
-BAUD=115200
 
 SOURCES=$(wildcard *.cpp) $(wildcard *.c) $(wildcard */*.c) $(wildcard */*.cpp)
 INCLUDES=
@@ -57,9 +57,9 @@ $(TARGET).lst: $(TARGET).elf
 	$(OBJDUMP) -h -S $< > $@
 
 avrdude:
-	avrdude $(AVRDUDE_FLAGS) -e flash -c $(DEVICE) -P $(PORT) -p $(MMCU) -b $(BAUD) -U flash:w:$(TARGET).hex -vv
+	avrdude $(AVRDUDE_FLAGS) -e flash -c$(DEVICE) -P$(PORT) -p$(MMCU) -b$(BAUD) -Uflash:w:$(TARGET).hex:i -vv
 
 clean:
-	-rm -f $(addprefix $(TARGET), .elf .hex .bin .lst .map)
+	-rm -f $(addprefix $(TARGET), .elf .hex .lst .map)
 	-rm -f $(OBJECTS) $(OBJECTS:.o=.d)
 
