@@ -1,6 +1,0 @@
-[submodule "i2cdevlib"]
-	path = i2cdevlib
-	url = http://github.com/jrowberg/i2cdevlib
-[submodule "EyeToSee"]
-	path = EyeToSee
-	url = https://github.com/mcous/EyeToSee
