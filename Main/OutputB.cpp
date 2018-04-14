@@ -28,3 +28,9 @@ void OutputB::TurnOff()
 		state = false;
 	}
 }
+
+bool OutputB::IsOn()
+{
+  return state;
+}
+

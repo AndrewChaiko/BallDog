@@ -28,3 +28,8 @@ void OutputD::TurnOff()
 		state = false;
 	}
 }
+
+bool OutputD::IsOn()
+{
+  return state;
+}
