@@ -1,7 +1,7 @@
 CROSS   ?=avr-
 CC      :=$(CROSS)gcc
-CXX     :=$(CROSS)g++
-LD      :=$(CROSS)g++
+CXX     :=$(CROSS)c++
+LD      :=$(CROSS)c++
 SIZE    :=$(CROSS)size
 OBJCOPY :=$(CROSS)objcopy
 OBJDUMP :=$(CROSS)objdump
@@ -22,7 +22,7 @@ OBJECTS=$(SOURCES:.cpp=.o)
 OBJECTS:=$(OBJECTS:.c=.o)
 
 CSTD?=c99
-COPT=-O2 -fdata-sections -ffunction-sections
+COPT=-O2 -fdata-sections -ffunction-sections 
 CFLAGS=-mmcu=$(MMCU) -std=$(CSTD) $(COPT) -Wall
 CFLAGS+=$(addprefix -I,$(INCLUDES))
 CFLAGS+=-include "$(SETTINGS)"

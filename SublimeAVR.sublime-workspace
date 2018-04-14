@@ -11,30 +11,37 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 1760,
+				"buffer_size": 267,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Makefile",
+			"file": "FSM/FSM/FSM.h",
 			"settings":
 			{
-				"buffer_size": 1546,
+				"buffer_size": 162,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "SublimeAVR.sublime-project",
-			"settings":
-			{
-				"buffer_size": 55663,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "FSM/FSM/FSM.cpp",
+			"settings":
+			{
+				"buffer_size": 573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system": "SublimeAVR",
 	"build_system_choices":
 	[
 		[
@@ -81,6 +88,10 @@
 				],
 				[
 					"SublimeAVR",
+					"Make"
+				],
+				[
+					"SublimeAVR",
 					"Rebuild"
 				],
 				[
@@ -98,7 +109,35 @@
 			],
 			[
 				"SublimeAVR",
-				"Run"
+				"Make"
+			]
+		],
+		[
+			[
+				[
+					"SublimeAVR",
+					""
+				],
+				[
+					"SublimeAVR",
+					"Rebuild"
+				],
+				[
+					"SublimeAVR",
+					"Clean"
+				],
+				[
+					"SublimeAVR",
+					"Debug"
+				],
+				[
+					"SublimeAVR",
+					"Run"
+				]
+			],
+			[
+				"SublimeAVR",
+				""
 			]
 		],
 		[
@@ -146,13 +185,17 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Make",
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "",
+		"last_filter": "pac",
 		"selected_items":
 		[
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -189,6 +232,7 @@
 		"height": 130.0,
 		"history":
 		[
+			"git status"
 		]
 	},
 	"distraction_free":
@@ -202,35 +246,68 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/andrewc/Projects/BallDog"
+		"/C/Users/andrewc/Projects/BallDog",
+		"/C/Users/andrewc/Projects/BallDog/FSM",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM"
 	],
 	"file_history":
 	[
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM/CheckMovementState.cpp",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM/FSM.cpp",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM/FSM.h",
+		"/C/Users/andrewc/Projects/BallDog/Makefile",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM/CheckMovementState.h",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM/State.cpp",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM/State.h",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM/States.h",
+		"/C/Users/andrewc/Projects/XPoolProject/XPool/Assets/mcs.rsp",
+		"/C/Users/andrewc/Projects/BallDog/FSM/State.cpp",
+		"/C/Users/andrewc/Projects/BallDog/FSM/State.h",
+		"/C/Users/andrewc/Projects/BallDog/52099e0f-d746-4cd7-b0db-ff1197457250.dmp",
+		"/C/Users/andrewc/Projects/XPoolProject/.git/COMMIT_EDITMSG",
+		"/C/Users/andrewc/Projects/BallDog/FSM/States.h",
+		"/C/Users/andrewc/Projects/BallDog/FSM/Transition.h",
+		"/C/Users/andrewc/Projects/BallDog/FSM/DelayState.h",
+		"/C/Users/andrewc/Projects/BallDog/Output/OutputD.cpp",
+		"/C/Users/andrewc/Projects/BallDog/Output/OutputD.h",
+		"/C/Users/andrewc/Projects/BallDog/FSM/DelayState.cpp",
+		"/C/Users/andrewc/Projects/BallDog/FSM/FSM.h",
+		"/C/Users/andrewc/Projects/BallDog/SublimeAVR.sublime-project",
+		"/C/Users/andrewc/Projects/BallDog/FSM/Delay.h",
+		"/C/Users/andrewc/Projects/BallDog/Output/Output.h",
+		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/mcs.rsp",
+		"/C/Users/andrewc/Projects/BallDog/main.cpp",
+		"/C/Users/andrewc/Projects/BallDog/MPU6050/mpu6050.h",
+		"/C/Users/andrewc/Projects/BallDog/Output/Output.cpp",
+		"/C/Users/andrewc/Projects/BallDog/MPU6050/mpu6050.cpp",
+		"/C/Users/andrewc/Projects/BallDog/EyeToSee/EyeToSee.cpp",
+		"/C/Users/andrewc/Projects/BallDog/vmath/vmath.h",
+		"/C/Users/andrewc/Projects/BallDog/Output/OutputB.h",
+		"/C/Users/andrewc/Projects/BallDog/OutputD.h",
+		"/C/Users/andrewc/Projects/BallDog/OutputB.h",
+		"/C/Users/andrewc/Projects/BallDog/OutputB.cpp",
+		"/C/Users/andrewc/Projects/BallDog/OutputD.cpp",
+		"/C/Users/andrewc/Projects/BallDog/Output.cpp",
 		"/C/Users/andrewc/Projects/BallDog/Output.d",
 		"/C/Program Files/Sublime Text/Data/Packages/AVR/SublimeAVR.sublime-settings",
-		"/C/Users/andrewc/Projects/BallDog/Makefile",
 		"/C/Users/andrewc/Projects/BallDog/LED.d",
 		"/C/Program Files/Sublime Text/Data/Packages/User/SublimeAVR.sublime-settings",
 		"/C/Users/andrewc/Projects/BallDog/main.d",
 		"/C/Users/andrewc/Projects/BallDog/Output.h",
-		"/C/Users/andrewc/Projects/BallDog/Output.cpp",
 		"/C/Users/andrewc/Projects/BallDog/LED.cpp",
 		"/C/Users/andrewc/Projects/BallDog/stdafx.cpp",
 		"/C/Users/andrewc/Projects/BallDog/stdafx.h",
 		"/C/Users/andrewc/Projects/BallDog/EyeToSee/EyeToSee.h",
 		"/C/Users/andrewc/Projects/PiratesBattleVR/.git/COMMIT_EDITMSG",
 		"/C/Users/andrewc/Projects/Platformer/.git/COMMIT_EDITMSG",
-		"/C/Users/andrewc/Projects/BallDog/EyeToSee/EyeToSee.cpp",
 		"/C/Users/andrewc/Projects/BallDog/MPU6050/MPU6050.cpp",
 		"/C/Users/andrewc/Projects/BallDog/MPU6050/MPU6050.h",
-		"/C/Users/andrewc/Projects/BallDog/SublimeAVR.sublime-project",
 		"/C/Users/andrewc/Projects/BallDog/MPU6050/helper_3dmath.h",
 		"/C/Users/andrewc/Projects/BallDog/Arduino/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.h",
 		"/C/Users/andrewc/Projects/BallDog/.git/COMMIT_EDITMSG",
 		"/C/Users/andrewc/Projects/BallDog/SSD1308/SSD1308.cpp",
 		"/C/Users/andrewc/Projects/BallDog/SSD1308/SSD1308.h",
 		"/C/Users/andrewc/Projects/BallDog/src/main.cpp",
-		"/C/Users/andrewc/Projects/BallDog/main.cpp",
 		"/C/Users/andrewc/AppData/Local/Unity/Editor/Editor.log",
 		"/C/Users/andrewc/Projects/BallDog/Arduino/CDC.cpp",
 		"/C/Users/andrewc/Projects/BallDog/i2cdevlib/Arduino/MPU6050/MPU6050.cpp",
@@ -260,7 +337,6 @@
 		"/C/Users/andrewc/Projects/BallDog/MPU6050/firmware/I2Cdev.h",
 		"/C/Users/andrewc/Projects/BallDog/ArduinoMotionSensorExample/I2Cdev.h",
 		"/C/Users/andrewc/Projects/BallDog/MPU6050/mpu6050.c",
-		"/C/Users/andrewc/Projects/BallDog/MPU6050/mpu6050.h",
 		"/C/Users/andrewc/Projects/BallDog/utils.h",
 		"/C/Users/andrewc/Projects/BallDog/.gitignore",
 		"/C/Users/andrewc/Projects/BallDog/Arduino-MPU6050/MPU6050.h",
@@ -289,7 +365,6 @@
 		"/C/Users/andrewc/Projects/Slotomania/Bin/Win/Logs/Log_2017-11-04T11_17_06.log",
 		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Shaders/HalfDiffuseShaderTransparent.shader",
 		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/Shaders/Lighting.cginc",
-		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/mcs.rsp",
 		"/C/Users/andrewc/Projects/XLog/Src/XLog/Logger.cs",
 		"/C/Users/andrewc/Projects/XLog/Src/XLog/Categories/ICategoryFormatter.cs",
 		"/C/Users/andrewc/Projects/PiratesBattleVR/UnityProject/Assets/csc.rsp",
@@ -304,17 +379,7 @@
 		"/C/Users/andrewc/test.log",
 		"/C/Users/andrewc/Downloads/Pirate_Battle_StandaloneWindows_0.1.0.14.log",
 		"/C/Users/andrewc/AppData/Local/Unity/Editor/Editor-prev.log",
-		"/C/Users/andrewc/Downloads/Pirate_Battle_Windows_0.1.0.9.log",
-		"/C/Program Files/Unity 2017.3.0b/Editor/Data/Resources/Upm/node_modules/superagent/yarn-error.log",
-		"/C/Users/andrewc/Google Drive/Work/Shaders/MovingStars.shader",
-		"/C/Users/andrewc/Google Drive/Work/Shaders/GradientalFade-Colored.shader",
-		"/C/Users/andrewc/Google Drive/Work/Shaders/GradientalFade-Monochrome.shader",
-		"/C/Users/andrewc/Google Drive/Work/DevGamm2017/GradientMapShader.shader",
-		"/C/Users/andrewc/Projects/PiratesBattleVR/Assets/ZTest/Test.asmdef",
-		"/C/Users/andrewc/Projects/BingoBlitz/.git/config",
-		"/C/Users/andrewc/Projects/BingoBlitz/pack.py",
-		"/C/Users/andrewc/Projects/Clean/Temp/StagingArea/assets/bin/Data/Managed/SweepReport.log",
-		"/C/Users/andrewc/Projects/Clean/Assets/Shaders/TestShader.shader"
+		"/C/Users/andrewc/Downloads/Pirate_Battle_Windows_0.1.0.9.log"
 	],
 	"find":
 	{
@@ -322,7 +387,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 104.0,
 		"where_history":
 		[
 		]
@@ -332,6 +397,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\nvoid * operator new(size_t size)\n{\n  return malloc(size);\n}\n\nvoid operator delete(void * ptr)\n{\n  free(ptr);\n}",
+			":\n",
+			"= ",
+			"  ",
+			"-lang",
+			"    OutputD vibro = OutputD(5);   // D5 output for vibro\n",
 			"clean",
 			"kB",
 			"-l"
@@ -352,7 +423,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -361,50 +432,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1760,
+						"buffer_size": 267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								716,
-								716
+								154,
+								154
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Makefile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1546,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								319,
-								319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -414,33 +457,88 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "SublimeAVR.sublime-project",
+					"buffer": 1,
+					"file": "FSM/FSM/FSM.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 55663,
+						"buffer_size": 162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1586,
-								1586
+								107,
+								107
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "FSM/FSM/FSM.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 438.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -479,13 +577,13 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 318.0
+		"height": 316.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"pinned_build_system": "SublimeAVR",
 	"project": "SublimeAVR.sublime-project",
 	"replace":
 	{

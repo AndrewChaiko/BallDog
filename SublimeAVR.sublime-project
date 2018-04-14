@@ -4,7 +4,9 @@
 		{
 			"cmd":
 			[
-				"make"
+				"make",
+				"all",
+				"avrdude"
 			],
 			"env":
 			{
@@ -18,6 +20,15 @@
 			"selector": "source.c, source.c++",
 			"variants":
 			[
+				{
+					"cmd":
+					[
+						"make",
+						"clean",
+						"all"
+					],
+					"name": "Make"
+				},
 				{
 					"cmd":
 					[

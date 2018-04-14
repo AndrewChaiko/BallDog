@@ -1,31 +1,18 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "Output/OutputB.h"
-#include "Output/OutputD.h"
-#include "avr/sleep.h"
-#include "stdlib.h"
-#include "MPU6050/mpu6050.h"
-
-OutputB led = OutputB(5);     // B5 output for led (built in)
-OutputD vibro = OutputD(5);   // D5 output for vibro
-MPU6050 mpu = MPU6050();
+#include "Output/Output.h"
+#include <stdlib.h>
+#include "FSM/FSM/FSM.h"
 
 int main(void)
 {
-  while(true)
-  {
-	   float accelX = mpu.getGyroX();
-     if(abs(accelX) > 100)
-     {
-      led.TurnOn();
-     }
-     else
-     {
-      led.TurnOff();
-     }
+    FSM *fsm = new FSM();
 
-		_delay_ms(100);
-	}
+    while(true)
+    {
+        float f = fsm->Update(100);
+        _delay_ms(100);
+    }
 
-	return -1;
+    return -1;
 }

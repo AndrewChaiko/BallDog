@@ -6,16 +6,16 @@
 class MPU6050
 {
 private:
-	void setupMPU();
+    void setupMPU();
 
 public:
-	MPU6050();
-	float getAccelX();
-	float getAccelY();
-	float getAccelZ();
-	float getGyroX();
-	float getGyroY();
-	float getGyroZ();
+    MPU6050();
+    float getAccelX();
+    float getAccelY();
+    float getAccelZ();
+    float getGyroX();
+    float getGyroY();
+    float getGyroZ();
 };
 
 #endif
